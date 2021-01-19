@@ -1,0 +1,11 @@
+<div phx-window-keyup="key_up"></div>
+
+<%= for row <- @render do %>
+
+  <div class='item'>
+  <%= for {key, _} = item <- row do %>
+    <span class='item <%= class(item) %>'><%= key %></span>
+  <% end %>
+  </div>
+
+<% end %>

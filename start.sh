@@ -1,0 +1,1 @@
+iex --sname nexus --cookie P6IJCYXOHFT4G3XS7AETBNNPRV62KS5YXCS7ECLNCLIJBHPJWIBA==== -S mix phx.server
